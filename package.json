@@ -1,0 +1,24 @@
+{
+	"private":     true,
+	"name":        "sncf-or-db-rest",
+	"description": "Expose db-sncf-prices/sncf-or-db over HTTP.",
+	"version":     "0.1.0",
+	"main":        "index.js",
+	"files":       ["index.js", "api.js", "lib"],
+	"author":      "Jannis R <mail@jannisr.de>",
+	"homepage":    "https://github.com/derhuerst/sncf-or-db-rest",
+	"repository":  "derhuerst/sncf-or-db-rest",
+	"bugs":        "https://github.com/derhuerst/sncf-or-db-rest/issues",
+	"license":     "ISC",
+	"keywords":    ["db", "sncf", "api", "http", "rest"],
+	"engines" :    {"node": ">=6"},
+	"dependencies": {
+		"express": "^4.14.0",
+		"corser": "^2.0.1",
+		"compression": "^1.6.2",
+		"nocache": "^2.0.0"
+	},
+	"scripts": {
+		"start": "node index.js"
+	}
+}
