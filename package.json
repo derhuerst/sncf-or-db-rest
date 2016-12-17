@@ -16,7 +16,8 @@
 		"express": "^4.14.0",
 		"corser": "^2.0.1",
 		"compression": "^1.6.2",
-		"nocache": "^2.0.0"
+		"nocache": "^2.0.0",
+		"db-sncf-prices": "juliuste/db-sncf-prices"
 	},
 	"scripts": {
 		"start": "node index.js"
